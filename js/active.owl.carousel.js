@@ -17,7 +17,21 @@ $(document).ready(function () {
 		loop: true,
 		margin: 40,
 		nav: true,
-		navText: ["<i class='fa fa-hand-o-left'></i>", "<i class='fa fa-hand-o-right'></i>"]
+		navText: ["<i class='fa fa-hand-o-left'></i>", "<i class='fa fa-hand-o-right'></i>"],
+		responsive: {
+			0: {
+				items: 1,
+				nav: true,
+			},
+			600: {
+				items: 2,
+				nav: true,
+			},
+			1000: {
+				items: 4,
+				nav: true,
+			}
+		}
 	});
 });
 
