@@ -1,0 +1,38 @@
+/* =============================================================================
+ * Name: CSS Style V3.0 || 2017 !!!
+ * Company: Banglasoft@Corporation™ !!!
+ * Founder: Engr. Md Mahadi Hassan Herock !!!
+ * Website URL: http://www.bangla-soft.com !!!
+ * Description: Try To Do Something Better Than Other !!!
+ ============================================================================ */
+
+/* ====================== CSS Styling Start From Here ======================= */
+
+/* ===================== CSS For Owl Carousel Plaugin ======================= */
+
+.staff-list .owl-nav {
+	position: absolute;
+	right: 0;
+	top: -65px;
+}
+
+.staff-list .owl-nav div {
+	background: #F2F2F2;
+	border: 1px solid #C7C7C7;
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 5px;
+	text-align: center;
+	transition: 1s;
+	width: 50px;
+}
+
+.staff-list .owl-nav div:hover {
+	background: #00AFEC;
+	color: #F9F9F9;
+}
+
+/* ================= Owl Carousel Plaugin CSS End Here ====================== */
+
+/* ======================= CSS Styling End Here ============================= */

@@ -1,0 +1,119 @@
+/* =============================================================================
+ * Name: CSS Style V3.0 || 2017 !!!
+ * Company: Banglasoft@Corporation™ !!!
+ * Founder: Engr. Md Mahadi Hassan Herock !!!
+ * Website URL: http://www.bangla-soft.com !!!
+ * Description: Try To Do Something Better Than Other !!!
+ ============================================================================ */
+
+/* ====================== CSS Styling Start From Here ======================= */
+
+/* ========================= General CSS For All ============================ */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* ============================ CSS For Fonts =============================== */
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+
+/* ========================= Fonts CSS End Here ============================= */
+
+/* ==================== General CSS For All End Here ======================== */
+
+/* ======================= CSS For Our Staff Area =========================== */
+
+.our-staff-area {
+	/* text-align: center; */
+	font-family: 'Quicksand', sans-serif;
+	padding-top: 30px;
+}
+
+.staff-headding {
+	margin-bottom: 60px;
+	padding: 0px;
+}
+
+.staff-headding h3 {
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	position: relative;
+}
+
+.staff-headding h3:before {
+	/* left: 50%; */
+	/* margin-left: -37.5px; */
+	background: #ECECEC;
+	border-radius: 100px;
+	border: 1px solid #C3C3C3;
+	bottom: 0;
+	content: "";
+	height: 4px;
+	left: 0;
+	position: absolute;
+	width: 65px;
+}
+
+.staff-headding h3:after {
+	/* left: 50%; */
+	/* margin-left: -12.5px; */
+	background: #00A8EB;
+	border-radius: 100px;
+	border: 1px solid #00A8EB;
+	bottom: 0;
+	content: "";
+	height: 4px;
+	left: 0;
+	position: absolute;
+	width: 55px;
+}
+
+.staff-headding p {
+	color: #8F8F8F;
+	font-size: 13.5px;
+	font-weight: 100;
+	line-height: 1.7;
+	margin: 0px;
+	padding: 0px;
+}
+
+.single-staff .staff-img {
+	/* margin: 0px auto; */
+	padding: 0px;
+	width: 80%;
+}
+
+.single-staff .staff-info h4 {
+	font-size: 17px;
+	font-weight: 500;
+	margin: 0px;
+	padding: 35px 0px 5px 0px;
+	text-transform: uppercase;
+}
+
+.single-staff .staff-info a {
+	color: #B3B3B3;
+	display: block;
+	font-size: 12px;
+	font-weight: 100;
+	margin-bottom: 15px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+.single-staff p {
+	color: #8F8F8F;
+	font-size: 13.5px;
+	font-weight: 100;
+	line-height: 1.7;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* =================== Our Staff Area CSS End Here ========================== */
+
+/* ======================= CSS Styling End Here ============================= */
